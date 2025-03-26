@@ -12,6 +12,6 @@ source:
   id: pkg:github/bosvik/netcoredbg-macOS-arm64.nvim@3.1.2-1054
   asset:
     - target: darwin_arm64
-      file: netcoredbg-osx-arm64.tar.gz:libexec/
+      file: netcoredbg-osx-arm64.tar.gz
 bin:
-  netcoredbg: libexec/netcoredbg
+  netcoredbg: netcoredbg
