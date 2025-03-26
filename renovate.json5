@@ -1,0 +1,19 @@
+{
+    extends: ["github>mason-org/registry-renovate-config"],
+    packageRules: [
+        {
+            matchDepNames: ["netcoredbg-macOS-arm64"],
+            allowedVersions: "*"
+        },
+        {
+            matchPackagePatterns: ["*"],
+            matchUpdateTypes: ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
+            enabled: true
+        }
+    ],
+    "ignoreDeps": [
+        "rescript-lsp"
+    ],
+    "automerge": true,
+    "ignoreTests": true
+}
