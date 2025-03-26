@@ -14,4 +14,4 @@ source:
     - target: darwin_arm64
       file: netcoredbg-osx-arm64.tar.gz
 bin:
-  netcoredbg: netcoredbg
+  netcoredbg: netcoredbg/netcoredbg
