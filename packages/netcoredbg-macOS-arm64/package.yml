@@ -1,0 +1,17 @@
+name: netcoredbg-macOS-arm64
+description: |
+  NetCoreDbg is a managed code debugger with GDB/MI, VSCode DAP and CLI interfaces for CoreCLR.
+homepage: https://github.com/Samsung/netcoredbg
+licenses:
+  - MIT
+languages:
+  - C#
+categories:
+  - DAP
+source:
+  id: pkg:github/bosvik/netcoredbg-macOS-arm64@3.1.2-1054
+  asset:
+    - target: darwin_arm64
+      file: netcoredbg-osx-arm64.tar.gz:libexec/
+bin:
+  netcoredbg: libexec/netcoredbg
