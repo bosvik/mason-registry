@@ -1,3 +1,4 @@
+---
 name: kulala-ls
 description: A minimal language server for HTTP syntax
 homepage: https://github.com/mistweaverco/kulala-ls
@@ -8,6 +9,10 @@ languages:
 categories:
   - LSP
 source:
-  id: pkg:npm/%40mistweaverco/kulala-ls
+  id: pkg:npm/@mistweaverco/kulala-ls
+  
 bin:
   kulala-ls: npm:kulala-ls
+
+neovim:
+  lspconfig: kulala-ls
