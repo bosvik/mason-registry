@@ -9,10 +9,10 @@ languages:
 categories:
   - LSP
 source:
-  id: pkg:npm/@mistweaverco/kulala-ls
+  id: pkg:npm/@mistweaverco/kulala-ls@1.11.1
   
 bin:
-  kulala-ls: npm:kulala-ls@1.11.1
+  kulala-ls: npm:kulala-ls
 
 neovim:
   lspconfig: kulala-ls
