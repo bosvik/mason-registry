@@ -12,7 +12,7 @@ source:
   id: pkg:npm/@mistweaverco/kulala-ls
   
 bin:
-  kulala-ls: npm:kulala-ls
+  kulala-ls: npm:kulala-ls@1.11.1
 
 neovim:
   lspconfig: kulala-ls
